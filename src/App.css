@@ -1,0 +1,42 @@
+*{
+  margin:0 ;
+}
+/* Layout styles */
+.nav{
+  display: flex;
+  height: 5vw;
+  align-items: center;
+  padding-right: 40vw;
+  justify-content: space-evenly;
+  background-color: blueviolet;
+  transition: 0.4s;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5vw;
+  
+}
+.nav :hover{
+  color: gainsboro;
+}
+/* Main styles */
+  .main{
+    margin: 2vw 4vw;
+  }
+/* Footer styles */
+.footer{
+    bottom: 0;
+    height: 5vw;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+    color:white;
+}
+.footer small{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
